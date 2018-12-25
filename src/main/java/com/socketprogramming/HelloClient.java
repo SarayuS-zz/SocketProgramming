@@ -29,11 +29,11 @@ public class HelloClient {
 		clientSocket.close();
 	}
 
-	public static void main(String[] args) throws IOException {
-		HelloClient client = new HelloClient();
-		client.communicate("127.0.0.1", 7777);
-		String resp = client.sendMessage("Hello to server");
-		System.out.println(resp);
-	}
+//	public static void main(String[] args) throws IOException {
+//		HelloClient client = new HelloClient();
+//		client.communicate("127.0.0.1", 7777);
+//		String resp = client.sendMessage("Hello to server");
+//		System.out.println(resp);
+//	}
 
 }

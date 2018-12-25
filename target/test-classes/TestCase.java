@@ -2,6 +2,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+@RunWith(JUnit4.class)
 public class TestCase {
 
 	@Test
